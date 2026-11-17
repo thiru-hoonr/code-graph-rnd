@@ -1,0 +1,74 @@
+{
+  "app": "spring-petclinic",
+  "app_commit": "500158f732419217507c7656904b8e6aa1bcc0d6",
+  "tool_version": "code-review-graph 2.3.8",
+  "run_at": "2026-11-17T10:30:35+00:00",
+  "build_seconds": 0.7,
+  "coverage": [
+    {
+      "ext": "java",
+      "files": 50,
+      "source": true,
+      "files_in_graph": 50,
+      "coverage_%": 100.0
+    },
+    {
+      "ext": "sql",
+      "files": 7,
+      "source": true,
+      "files_in_graph": 7,
+      "coverage_%": 100.0
+    }
+  ],
+  "relationships": [
+    {
+      "kind": "CALLS",
+      "edges": 1665,
+      "resolved": 95,
+      "resolved_%": 5.7
+    },
+    {
+      "kind": "TESTED_BY",
+      "edges": 1121,
+      "resolved": 1121,
+      "resolved_%": 100.0
+    },
+    {
+      "kind": "IMPORTS_FROM",
+      "edges": 517,
+      "resolved": 10,
+      "resolved_%": 1.9
+    },
+    {
+      "kind": "CONTAINS",
+      "edges": 278,
+      "resolved": 278,
+      "resolved_%": 100.0
+    },
+    {
+      "kind": "HANDLES",
+      "edges": 17,
+      "resolved": 17,
+      "resolved_%": 100.0
+    },
+    {
+      "kind": "INJECTS",
+      "edges": 17,
+      "resolved": 0,
+      "resolved_%": 0.0
+    },
+    {
+      "kind": "INHERITS",
+      "edges": 14,
+      "resolved": 0,
+      "resolved_%": 0.0
+    },
+    {
+      "kind": "DEPENDS_ON_CONFIG",
+      "edges": 1,
+      "resolved": 0,
+      "resolved_%": 0.0
+    }
+  ],
+  "missed_files": []
+}

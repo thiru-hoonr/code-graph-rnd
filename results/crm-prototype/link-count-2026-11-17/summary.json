@@ -1,0 +1,43 @@
+{
+  "app": "crm-prototype",
+  "app_commit": "65a7f830e20a5fd51b24075f623b8d9e4430e8b0",
+  "tool_version": "code-review-graph 2.3.8",
+  "run_at": "2026-11-17T10:08:59+00:00",
+  "build_seconds": 0.6,
+  "coverage": [
+    {
+      "ext": "js",
+      "files": 89,
+      "source": true,
+      "files_in_graph": 89,
+      "coverage_%": 100.0
+    }
+  ],
+  "relationships": [
+    {
+      "kind": "CALLS",
+      "edges": 2477,
+      "resolved": 456,
+      "resolved_%": 18.4
+    },
+    {
+      "kind": "IMPORTS_FROM",
+      "edges": 248,
+      "resolved": 181,
+      "resolved_%": 73.0
+    },
+    {
+      "kind": "CONTAINS",
+      "edges": 247,
+      "resolved": 247,
+      "resolved_%": 100.0
+    },
+    {
+      "kind": "REFERENCES",
+      "edges": 139,
+      "resolved": 107,
+      "resolved_%": 77.0
+    }
+  ],
+  "missed_files": []
+}

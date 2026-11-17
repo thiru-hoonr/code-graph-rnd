@@ -1,0 +1,62 @@
+{
+  "app": "voice-assessment-agent",
+  "app_commit": "4e248988aea65c509140ee81689ce5846f3aa31c",
+  "tool_version": "code-review-graph 2.3.8",
+  "run_at": "2026-11-17T10:08:56+00:00",
+  "build_seconds": 0.8,
+  "coverage": [
+    {
+      "ext": "py",
+      "files": 72,
+      "source": true,
+      "files_in_graph": 72,
+      "coverage_%": 100.0
+    },
+    {
+      "ext": "sh",
+      "files": 2,
+      "source": true,
+      "files_in_graph": 2,
+      "coverage_%": 100.0
+    }
+  ],
+  "relationships": [
+    {
+      "kind": "CALLS",
+      "edges": 3461,
+      "resolved": 589,
+      "resolved_%": 17.0
+    },
+    {
+      "kind": "TESTED_BY",
+      "edges": 1179,
+      "resolved": 1179,
+      "resolved_%": 100.0
+    },
+    {
+      "kind": "CONTAINS",
+      "edges": 554,
+      "resolved": 554,
+      "resolved_%": 100.0
+    },
+    {
+      "kind": "IMPORTS_FROM",
+      "edges": 442,
+      "resolved": 161,
+      "resolved_%": 36.4
+    },
+    {
+      "kind": "REFERENCES",
+      "edges": 418,
+      "resolved": 213,
+      "resolved_%": 51.0
+    },
+    {
+      "kind": "INHERITS",
+      "edges": 56,
+      "resolved": 0,
+      "resolved_%": 0.0
+    }
+  ],
+  "missed_files": []
+}

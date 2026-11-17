@@ -1,0 +1,9 @@
+{
+  "name": "js-ref",
+  "private": true,
+  "description": "Reference parser for JavaScript/JSX functions expected (TypeScript compiler API)",
+  "type": "module",
+  "dependencies": {
+    "typescript": "5.8.3"
+  }
+}

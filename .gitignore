@@ -1,0 +1,9 @@
+apps/
+.venv/
+**/.code-review-graph/
+results/*.db
+.ipynb_checkpoints/
+old/
+results/**/crg/
+__pycache__/
+js-ref/node_modules/

@@ -1,0 +1,6 @@
+run,run_at,app_commit,tool,files,fully_read,partly_read,not_read,lines,lines_read,pct_lines_read,language,functions_expected,functions_found,notes
+iter-002_2026-11-17_2008,2026-11-17T20:08:21,500158f,code-review-graph 2.3.8,70,61,1,8,5487,5226,95.2,bash,,,no reference parser for this language yet
+iter-002_2026-11-17_2008,2026-11-17T20:08:21,500158f,code-review-graph 2.3.8,70,61,1,8,5487,5226,95.2,java,195.0,192.0,
+iter-002_2026-11-17_2008,2026-11-17T20:08:21,500158f,code-review-graph 2.3.8,70,61,1,8,5487,5226,95.2,spring_config,,,no reference parser for this language yet
+iter-002_2026-11-17_2008,2026-11-17T20:08:21,500158f,code-review-graph 2.3.8,70,61,1,8,5487,5226,95.2,sql,,,no reference parser for this language yet
+iter-002_2026-11-17_2008,2026-11-17T20:08:21,500158f,code-review-graph 2.3.8,70,61,1,8,5487,5226,95.2,yaml,,,no reference parser for this language yet
