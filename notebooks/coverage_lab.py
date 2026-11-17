@@ -405,3 +405,51 @@ def run_stamp(app: str) -> dict[str, str]:
     """What this result depends on."""
     return {"app": app, "app_commit": sh(["git", "rev-parse", "--short", "HEAD"], cwd=APPS / app),
             "tool": sh([TOOL, "--version"]), "run_at": dt.datetime.now().isoformat(timespec="seconds")}
+
+
+# ---------------------------------------------------------------- 8. one workbook for all projects
+
+def latest_run(app: str) -> str:
+    """The last iteration logged in results/<app>/runs.csv."""
+    return pd.read_csv(RESULTS / app / "runs.csv").run.iloc[-1]
+
+
+def combine_workbooks(apps: list[str]) -> Path:
+    """One team workbook from each project's latest iteration, in the given order.
+
+    Copies the values of sheet 1 and sheet 2 out of results/<app>/runs/<latest>/Ingestion_Coverage_<app>.xlsx
+    (formulas are rewritten for their new row), and lists the projects in sheet 3, whose own
+    formulas then summarise each one. Written to results/combined/ with a timestamp; never overwrites.
+    """
+    out_dir = RESULTS / "combined"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out = out_dir / f"Ingestion_Coverage_all-projects_{dt.datetime.now():%Y-%m-%d_%H%M}.xlsx"
+    wb = load_workbook(TEMPLATE)
+    s1, s2, s3 = wb["1. Coverage"], wb["2. Parsers"], wb["3. Summary"]
+    r1, r2 = 5, 6
+    for i, app in enumerate(apps):
+        run = latest_run(app)
+        src = load_workbook(RESULTS / app / "runs" / run / f"Ingestion_Coverage_{app}.xlsx")
+        a, b = src["1. Coverage"], src["2. Parsers"]
+        for r in range(5, a.max_row + 1):
+            if not a.cell(r, 1).value:
+                continue
+            for c in (1, 2, 3, 4, 5, 6, 7, 8, 10):
+                s1.cell(r1, c).value = a.cell(r, c).value
+            s1.cell(r1, 9).value = f'=IF(OR(D{r1}="",D{r1}=0),"",G{r1}/D{r1})'
+            r1 += 1
+        for r in range(6, b.max_row + 1):
+            if not b.cell(r, 1).value:
+                continue
+            for c in (1, 2, 3, 4, 5, 7, 8, 11, 12):
+                s2.cell(r2, c).value = b.cell(r, c).value
+            s2.cell(r2, 6).value = f'=IF(OR(D{r2}="",D{r2}=0),"",E{r2}/D{r2})'
+            s2.cell(r2, 9).value = f'=IF(OR(G{r2}="",G{r2}=0),"",H{r2}/G{r2})'
+            s2.cell(r2, 10).value = (f'=IF(A{r2}="","",IF(OR(F{r2}="",I{r2}=""),"Pending",IF(AND(F{r2}>=$C$3,I{r2}>=$E$3),'
+                                     f'"Good",IF(AND(F{r2}>=$G$3,I{r2}>=$I$3),"Partly","Poor"))))')
+            r2 += 1
+        s3.cell(5 + i, 1).value = app
+        print(f"{app}: {run}")
+    wb.save(out)
+    print(f"sheet 1: {r1 - 5} files, sheet 2: {r2 - 6} language rows, sheet 3: {len(apps)} projects")
+    return out

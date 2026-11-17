@@ -7,3 +7,4 @@ old/
 results/**/crg/
 __pycache__/
 js-ref/node_modules/
+.DS_Store
