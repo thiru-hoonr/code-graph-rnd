@@ -1,0 +1,46 @@
+project,language,kind,expected,crg_found,crg_reported,mod_found,mod_reported,reference,crg_found_pct,crg_correct_pct,mod_found_pct,mod_correct_pct
+guava,Java,Functions,59236,59188,,59236.0,,javac,99.9,,100.0,
+spring-petclinic,Java,Functions,195,192,,195.0,,javac,98.5,,100.0,
+crm-prototype,JavaScript,Functions,227,206,,227.0,,TypeScript compiler,90.7,,100.0,
+crm-prototype-client,JavaScript,Functions,623,559,,623.0,,TypeScript compiler,89.7,,100.0,
+voice-assessment-agent,Python,Functions,487,487,,487.0,,CPython ast,100.0,,100.0,
+guava,Java,Classes,7400,7260,7260.0,7400.0,7400.0,javac,98.1,100.0,100.0,100.0
+spring-petclinic,Java,Classes,50,50,50.0,50.0,50.0,javac,100.0,100.0,100.0,100.0
+crm-prototype,JavaScript,Classes,6,6,6.0,6.0,6.0,TypeScript compiler,100.0,100.0,100.0,100.0
+crm-prototype-client,JavaScript,Classes,1,1,1.0,1.0,1.0,TypeScript compiler,100.0,100.0,100.0,100.0
+voice-assessment-agent,Python,Classes,67,62,67.0,67.0,67.0,CPython ast,92.5,92.5,100.0,100.0
+guava,Java,Contains,71080,66448,66448.0,71080.0,71080.0,javac,93.5,100.0,100.0,100.0
+guava,Java,Inherits,6231,6001,6001.0,6231.0,6231.0,javac,96.3,100.0,100.0,100.0
+guava,Java,Imports,39233,39233,39233.0,39233.0,39233.0,javac,100.0,100.0,100.0,100.0
+guava,Java,Calls,301434,286727,287769.0,301434.0,301434.0,javac,95.1,99.6,100.0,100.0
+spring-petclinic,Java,Contains,248,242,245.0,248.0,248.0,javac,97.6,98.8,100.0,100.0
+spring-petclinic,Java,Inherits,17,14,14.0,17.0,17.0,javac,82.4,100.0,100.0,100.0
+spring-petclinic,Java,Imports,475,475,475.0,475.0,475.0,javac,100.0,100.0,100.0,100.0
+spring-petclinic,Java,Calls,1705,1513,1515.0,1705.0,1705.0,javac,88.7,99.9,100.0,100.0
+crm-prototype,JavaScript,Contains,233,212,247.0,233.0,233.0,TypeScript compiler,91.0,85.8,100.0,100.0
+crm-prototype,JavaScript,Inherits,6,0,0.0,6.0,6.0,TypeScript compiler,0.0,,100.0,100.0
+crm-prototype,JavaScript,Imports,251,248,248.0,251.0,251.0,TypeScript compiler,98.8,100.0,100.0,100.0
+crm-prototype,JavaScript,Calls,2723,2477,2477.0,2723.0,2723.0,TypeScript compiler,91.0,100.0,100.0,100.0
+crm-prototype-client,JavaScript,Contains,624,560,564.0,619.0,624.0,TypeScript compiler,89.7,99.3,99.2,99.2
+crm-prototype-client,JavaScript,Inherits,0,0,0.0,0.0,0.0,TypeScript compiler,,,,
+crm-prototype-client,JavaScript,Imports,833,792,792.0,833.0,833.0,TypeScript compiler,95.1,100.0,100.0,100.0
+crm-prototype-client,JavaScript,Calls,6312,5213,5213.0,6312.0,6312.0,TypeScript compiler,82.6,100.0,100.0,100.0
+voice-assessment-agent,Python,Contains,554,554,554.0,554.0,554.0,CPython ast,100.0,100.0,100.0,100.0
+voice-assessment-agent,Python,Inherits,56,56,56.0,56.0,56.0,CPython ast,100.0,100.0,100.0,100.0
+voice-assessment-agent,Python,Imports,498,458,515.0,498.0,498.0,CPython ast,92.0,88.9,100.0,100.0
+voice-assessment-agent,Python,Calls,3452,3399,3401.0,3452.0,3452.0,CPython ast,98.5,99.9,100.0,100.0
+guava,Java,Files,3292,3284,3284.0,,,git ls-files,99.8,100.0,,
+guava,Java,JSON files,1,1,1.0,,,git ls-files,100.0,100.0,,
+guava,Java,YAML files,6,6,6.0,,,git ls-files,100.0,100.0,,
+spring-petclinic,Java,Files,79,62,62.0,,,git ls-files,78.5,100.0,,
+spring-petclinic,Java,JSON files,1,0,0.0,,,git ls-files,0.0,,,
+spring-petclinic,Java,YAML files,8,0,0.0,,,git ls-files,0.0,,,
+crm-prototype,JavaScript,Files,94,93,93.0,,,git ls-files,98.9,100.0,,
+crm-prototype,JavaScript,JSON files,3,2,2.0,,,git ls-files,66.7,100.0,,
+crm-prototype,JavaScript,YAML files,0,0,0.0,,,git ls-files,,,,
+crm-prototype-client,JavaScript,Files,165,164,164.0,,,git ls-files,99.4,100.0,,
+crm-prototype-client,JavaScript,JSON files,7,4,4.0,,,git ls-files,57.1,100.0,,
+crm-prototype-client,JavaScript,YAML files,0,0,0.0,,,git ls-files,,,,
+voice-assessment-agent,Python,Files,80,80,80.0,,,git ls-files,100.0,100.0,,
+voice-assessment-agent,Python,JSON files,2,0,0.0,,,git ls-files,0.0,,,
+voice-assessment-agent,Python,YAML files,3,3,3.0,,,git ls-files,100.0,100.0,,

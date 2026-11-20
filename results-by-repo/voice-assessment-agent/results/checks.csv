@@ -1,0 +1,17 @@
+edge,expected (javac),CRG,matched,missed,CRG extra,recall %,precision %,run,repo_commit,crg_run,reference
+CONTAINS,554,554,554,0,0,100.0,100.0,edges_2026-11-20_1245,4e24898,iter-005_2026-11-17_2251,CPython ast (lang-ref/python/edges.py)
+INHERITS,56,56,56,0,0,100.0,100.0,edges_2026-11-20_1245,4e24898,iter-005_2026-11-17_2251,CPython ast (lang-ref/python/edges.py)
+IMPORTS_FROM,498,515,458,40,57,92.0,88.9,edges_2026-11-20_1245,4e24898,iter-005_2026-11-17_2251,CPython ast (lang-ref/python/edges.py)
+CALLS,3452,3401,3399,53,2,98.5,99.9,edges_2026-11-20_1245,4e24898,iter-005_2026-11-17_2251,CPython ast (lang-ref/python/edges.py)
+CONTAINS (module),554,554,554,0,0,100.0,100.0,edges_2026-11-20_1245,4e24898,iter-005_2026-11-17_2251,CPython ast (lang-ref/python/edges.py)
+INHERITS (module),56,56,56,0,0,100.0,100.0,edges_2026-11-20_1245,4e24898,iter-005_2026-11-17_2251,CPython ast (lang-ref/python/edges.py)
+IMPORTS_FROM (module),498,498,498,0,0,100.0,100.0,edges_2026-11-20_1245,4e24898,iter-005_2026-11-17_2251,CPython ast (lang-ref/python/edges.py)
+CALLS (module),3452,3452,3452,0,0,100.0,100.0,edges_2026-11-20_1245,4e24898,iter-005_2026-11-17_2251,CPython ast (lang-ref/python/edges.py)
+FILE,80,80,80,0,0,100.0,100.0,extras_2026-11-20_1333,4e24898,iter-005_2026-11-17_2251,git ls-files (extensions CRG indexes)
+JSON files,2,0,0,2,0,0.0,,extras_2026-11-20_1333,4e24898,iter-005_2026-11-17_2251,git ls-files *.json
+JsonPath,0,0,0,0,0,,,extras_2026-11-20_1333,4e24898,iter-005_2026-11-17_2251,python json
+YAML files,3,3,3,0,0,100.0,100.0,extras_2026-11-20_1333,4e24898,iter-005_2026-11-17_2251,git ls-files *.yml *.yaml
+YamlPath,169,169,169,0,0,100.0,100.0,extras_2026-11-20_1333,4e24898,iter-005_2026-11-17_2251,"PyYAML, YAML 1.2 booleans"
+TESTED_BY (vs test CALLS),1367,1179,1179,188,0,86.2,100.0,extras_2026-11-20_1333,4e24898,iter-005_2026-11-17_2251,CRG CALLS from test nodes
+Test nodes (python),192,192,192,0,0,100.0,100.0,extras_2026-11-20_1333,4e24898,iter-005_2026-11-17_2251,"pytest naming rule, ast"
+REFERENCES (python),2596,418,361,2235,57,13.9,86.4,extras_2026-11-20_1333,4e24898,iter-005_2026-11-17_2251,ast: repo/imported name used as a value

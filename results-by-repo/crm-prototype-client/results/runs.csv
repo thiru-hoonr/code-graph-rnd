@@ -1,0 +1,10 @@
+run,run_at,app_commit,tool,files,fully_read,partly_read,not_read,lines,lines_read,pct_lines_read,language,functions_expected,functions_found,notes
+iter-001_2026-11-17_2023,2026-11-17T20:23:28,325788b,code-review-graph 2.3.8,157,157,0,0,23716,23716,100.0,javascript,623,545,
+iter-002_2026-11-17_2233,2026-11-17T22:33:37,325788b,code-review-graph 2.3.8,157,157,0,0,23716,23716,100.0,javascript,623,545,
+iter-004_2026-11-17_2237,2026-11-17T22:37:05,325788b,code-review-graph 2.3.8,157,157,0,0,23716,23716,100.0,javascript,623,545,
+iter-005_2026-11-17_2241,2026-11-17T22:41:45,325788b,code-review-graph 2.4.0,165,164,0,1,31765,25107,79.0,html,,,no reference parser for this language yet
+iter-005_2026-11-17_2241,2026-11-17T22:41:45,325788b,code-review-graph 2.4.0,165,164,0,1,31765,25107,79.0,javascript,623.0,559.0,
+iter-005_2026-11-17_2241,2026-11-17T22:41:45,325788b,code-review-graph 2.4.0,165,164,0,1,31765,25107,79.0,json,,,no reference parser for this language yet
+iter-006_2026-11-18_0744,2026-11-18T07:44:19,325788b,code-review-graph 2.4.0,165,164,0,1,31765,25107,79.0,html,,,no reference parser for this language yet
+iter-006_2026-11-18_0744,2026-11-18T07:44:19,325788b,code-review-graph 2.4.0,165,164,0,1,31765,25107,79.0,javascript,623.0,559.0,
+iter-006_2026-11-18_0744,2026-11-18T07:44:19,325788b,code-review-graph 2.4.0,165,164,0,1,31765,25107,79.0,json,,,no reference parser for this language yet

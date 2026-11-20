@@ -1,0 +1,15 @@
+edge,expected (javac),CRG,matched,missed,CRG extra,recall %,precision %,run,repo_commit,crg_run,reference
+CONTAINS,233,247,212,21,35,91.0,85.8,edges_2026-11-20_1245,65a7f83,iter-003_2026-11-18_0743,TypeScript compiler (js-ref/edges.mjs)
+INHERITS,6,0,0,6,0,0.0,,edges_2026-11-20_1245,65a7f83,iter-003_2026-11-18_0743,TypeScript compiler (js-ref/edges.mjs)
+IMPORTS_FROM,251,248,248,3,0,98.8,100.0,edges_2026-11-20_1245,65a7f83,iter-003_2026-11-18_0743,TypeScript compiler (js-ref/edges.mjs)
+CALLS,2723,2477,2477,246,0,91.0,100.0,edges_2026-11-20_1245,65a7f83,iter-003_2026-11-18_0743,TypeScript compiler (js-ref/edges.mjs)
+CONTAINS (module),233,233,233,0,0,100.0,100.0,edges_2026-11-20_1245,65a7f83,iter-003_2026-11-18_0743,TypeScript compiler (js-ref/edges.mjs)
+INHERITS (module),6,6,6,0,0,100.0,100.0,edges_2026-11-20_1245,65a7f83,iter-003_2026-11-18_0743,TypeScript compiler (js-ref/edges.mjs)
+IMPORTS_FROM (module),251,251,251,0,0,100.0,100.0,edges_2026-11-20_1245,65a7f83,iter-003_2026-11-18_0743,TypeScript compiler (js-ref/edges.mjs)
+CALLS (module),2723,2723,2723,0,0,100.0,100.0,edges_2026-11-20_1245,65a7f83,iter-003_2026-11-18_0743,TypeScript compiler (js-ref/edges.mjs)
+FILE,94,93,93,1,0,98.9,100.0,extras_2026-11-20_1333,65a7f83,iter-003_2026-11-18_0743,git ls-files (extensions CRG indexes)
+JSON files,3,2,2,1,0,66.7,100.0,extras_2026-11-20_1333,65a7f83,iter-003_2026-11-18_0743,git ls-files *.json
+JsonPath,45,45,45,0,0,100.0,100.0,extras_2026-11-20_1333,65a7f83,iter-003_2026-11-18_0743,python json
+YAML files,0,0,0,0,0,,,extras_2026-11-20_1333,65a7f83,iter-003_2026-11-18_0743,git ls-files *.yml *.yaml
+YamlPath,0,0,0,0,0,,,extras_2026-11-20_1333,65a7f83,iter-003_2026-11-18_0743,"PyYAML, YAML 1.2 booleans"
+TESTED_BY (vs test CALLS),0,0,0,0,0,,,extras_2026-11-20_1333,65a7f83,iter-003_2026-11-18_0743,CRG CALLS from test nodes

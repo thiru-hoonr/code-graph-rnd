@@ -1,0 +1,16 @@
+run,run_at,app_commit,tool,files,fully_read,partly_read,not_read,lines,lines_read,pct_lines_read,language,functions_expected,functions_found,notes
+iter-001_2026-11-17_2018,2026-11-17T20:18:30,fce80fd,code-review-graph 2.3.8,3282,3260,14,8,803297,802389,99.9,bash,,,no reference parser for this language yet
+iter-001_2026-11-17_2018,2026-11-17T20:18:30,fce80fd,code-review-graph 2.3.8,3282,3260,14,8,803297,802389,99.9,java,59236.0,52755.0,
+iter-001_2026-11-17_2018,2026-11-17T20:18:30,fce80fd,code-review-graph 2.3.8,3282,3260,14,8,803297,802389,99.9,javascript,,,no reference parser for this language yet
+iter-001_2026-11-17_2018,2026-11-17T20:18:30,fce80fd,code-review-graph 2.3.8,3282,3260,14,8,803297,802389,99.9,yaml,,,no reference parser for this language yet
+iter-002_2026-11-17_2243,2026-11-17T22:43:33,fce80fd,code-review-graph 2.3.8,3282,3260,14,8,803297,802389,99.9,bash,,,no reference parser for this language yet
+iter-002_2026-11-17_2243,2026-11-17T22:43:33,fce80fd,code-review-graph 2.3.8,3282,3260,14,8,803297,802389,99.9,java,59236.0,52755.0,
+iter-002_2026-11-17_2243,2026-11-17T22:43:33,fce80fd,code-review-graph 2.3.8,3282,3260,14,8,803297,802389,99.9,javascript,,,no reference parser for this language yet
+iter-002_2026-11-17_2243,2026-11-17T22:43:33,fce80fd,code-review-graph 2.3.8,3282,3260,14,8,803297,802389,99.9,yaml,,,no reference parser for this language yet
+iter-003_2026-11-17_2247,2026-11-17T22:47:39,fce80fd,code-review-graph 2.4.0,3284,3270,14,0,803591,803561,100.0,bash,,,no reference parser for this language yet
+iter-003_2026-11-17_2247,2026-11-17T22:47:39,fce80fd,code-review-graph 2.4.0,3284,3270,14,0,803591,803561,100.0,html,,,no reference parser for this language yet
+iter-003_2026-11-17_2247,2026-11-17T22:47:39,fce80fd,code-review-graph 2.4.0,3284,3270,14,0,803591,803561,100.0,java,59236.0,59188.0,
+iter-003_2026-11-17_2247,2026-11-17T22:47:39,fce80fd,code-review-graph 2.4.0,3284,3270,14,0,803591,803561,100.0,javascript,,,no reference parser for this language yet
+iter-003_2026-11-17_2247,2026-11-17T22:47:39,fce80fd,code-review-graph 2.4.0,3284,3270,14,0,803591,803561,100.0,json,,,no reference parser for this language yet
+iter-003_2026-11-17_2247,2026-11-17T22:47:39,fce80fd,code-review-graph 2.4.0,3284,3270,14,0,803591,803561,100.0,kotlin,,,no reference parser for this language yet
+iter-003_2026-11-17_2247,2026-11-17T22:47:39,fce80fd,code-review-graph 2.4.0,3284,3270,14,0,803591,803561,100.0,yaml,,,no reference parser for this language yet

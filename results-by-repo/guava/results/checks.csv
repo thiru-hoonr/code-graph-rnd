@@ -1,0 +1,25 @@
+edge,expected (javac),CRG,matched,missed,CRG extra,recall %,precision %,run,repo_commit,crg_run,reference
+CONTAINS,71080,66448,66448,4632,0,93.5,100.0,edges_2026-11-20_1140,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+INHERITS,6231,6001,6001,230,0,96.3,100.0,edges_2026-11-20_1140,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+IMPORTS_FROM,39233,39233,39233,0,0,100.0,100.0,edges_2026-11-20_1140,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+CALLS,301434,287769,286727,14707,1042,95.1,99.6,edges_2026-11-20_1140,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+CLASSES (nodes),7400,7260,7260,140,0,98.1,100.0,classes_2026-11-20_1144,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListClasses.java)
+CLASSES (nodes),7400,7260,7260,140,0,98.1,100.0,classes_2026-11-20_1145,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListClasses.java)
+CONTAINS,71080,66448,66448,4632,0,93.5,100.0,edges_2026-11-20_1146,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+INHERITS,6231,6001,6001,230,0,96.3,100.0,edges_2026-11-20_1146,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+IMPORTS_FROM,39233,39233,39233,0,0,100.0,100.0,edges_2026-11-20_1146,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+CALLS,301434,287769,286727,14707,1042,95.1,99.6,edges_2026-11-20_1146,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+CONTAINS,71080,66448,66448,4632,0,93.5,100.0,edges_2026-11-20_1158,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+INHERITS,6231,6001,6001,230,0,96.3,100.0,edges_2026-11-20_1158,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+IMPORTS_FROM,39233,39233,39233,0,0,100.0,100.0,edges_2026-11-20_1158,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+CALLS,301434,287769,286727,14707,1042,95.1,99.6,edges_2026-11-20_1158,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+CONTAINS (module),71080,71080,71080,0,0,100.0,100.0,edges_2026-11-20_1158,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+INHERITS (module),6231,6231,6231,0,0,100.0,100.0,edges_2026-11-20_1158,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+IMPORTS_FROM (module),39233,39233,39233,0,0,100.0,100.0,edges_2026-11-20_1158,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+CALLS (module),301434,301434,301434,0,0,100.0,100.0,edges_2026-11-20_1158,fce80fd,iter-003_2026-11-17_2247,javac parse (java-ref/ListEdges.java)
+FILE,3292,3284,3284,8,0,99.8,100.0,extras_2026-11-20_1333,fce80fd,iter-003_2026-11-17_2247,git ls-files (extensions CRG indexes)
+JSON files,1,1,1,0,0,100.0,100.0,extras_2026-11-20_1333,fce80fd,iter-003_2026-11-17_2247,git ls-files *.json
+JsonPath,37,37,37,0,0,100.0,100.0,extras_2026-11-20_1333,fce80fd,iter-003_2026-11-17_2247,python json
+YAML files,6,6,6,0,0,100.0,100.0,extras_2026-11-20_1333,fce80fd,iter-003_2026-11-17_2247,git ls-files *.yml *.yaml
+YamlPath,199,199,199,0,0,100.0,100.0,extras_2026-11-20_1333,fce80fd,iter-003_2026-11-17_2247,"PyYAML, YAML 1.2 booleans"
+TESTED_BY (vs test CALLS),201645,19465,19465,182180,0,9.7,100.0,extras_2026-11-20_1333,fce80fd,iter-003_2026-11-17_2247,CRG CALLS from test nodes

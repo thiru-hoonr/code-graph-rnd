@@ -1,0 +1,11 @@
+run,run_at,app_commit,tool,files,fully_read,partly_read,not_read,lines,lines_read,pct_lines_read,language,functions_expected,functions_found,notes
+iter-001_2026-11-17_1647,2026-11-17T16:47:44,4e24898,code-review-graph 2.3.8,77,74,0,3,10274,10020,97.5,python,487,477,"run by Claude before the iteration layout; executed notebook not kept, see runs/iter-001_2026-11-17_1647/NOTE.md"
+iter-002_2026-11-17_1858,2026-11-17T18:58:40,4e24898,code-review-graph 2.3.8,77,74,0,3,10274,10020,97.5,python,487,477,
+iter-003_2026-11-17_2038,2026-11-17T20:38:45,4e24898,code-review-graph 2.3.8,77,74,0,3,10274,10020,97.5,bash,,,no reference parser for this language yet
+iter-003_2026-11-17_2038,2026-11-17T20:38:45,4e24898,code-review-graph 2.3.8,77,74,0,3,10274,10020,97.5,python,487.0,477.0,
+iter-003_2026-11-17_2038,2026-11-17T20:38:45,4e24898,code-review-graph 2.3.8,77,74,0,3,10274,10020,97.5,yaml,,,no reference parser for this language yet
+iter-005_2026-11-17_2251,2026-11-17T22:51:20,4e24898,code-review-graph 2.4.0,80,80,0,0,10461,10461,100.0,bash,,,no reference parser for this language yet
+iter-005_2026-11-17_2251,2026-11-17T22:51:20,4e24898,code-review-graph 2.4.0,80,80,0,0,10461,10461,100.0,html,,,no reference parser for this language yet
+iter-005_2026-11-17_2251,2026-11-17T22:51:20,4e24898,code-review-graph 2.4.0,80,80,0,0,10461,10461,100.0,json,,,no reference parser for this language yet
+iter-005_2026-11-17_2251,2026-11-17T22:51:20,4e24898,code-review-graph 2.4.0,80,80,0,0,10461,10461,100.0,python,487.0,487.0,
+iter-005_2026-11-17_2251,2026-11-17T22:51:20,4e24898,code-review-graph 2.4.0,80,80,0,0,10461,10461,100.0,yaml,,,no reference parser for this language yet

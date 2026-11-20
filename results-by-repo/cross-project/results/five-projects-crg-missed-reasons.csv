@@ -1,0 +1,42 @@
+project,kind,reason,missed,example,example_at
+crm-prototype,Calls,constructor call (new X(...)),169,const s3 = new S3Client(,configurations/s3.config.js
+crm-prototype,Calls,chained call on a continuation line (.foo(...) at the start of the line),77,".replace(/{{email}}/g, to)",utils/email.util.js
+crm-prototype,Contains,function written as an object property (key: function / key: () =>),21,validator: function (value) {,models/companyLead.model.js
+crm-prototype,Functions,function written as an object property (key: function / key: () =>),21,validator: function (value) {,models/companyLead.model.js
+crm-prototype,Imports,"require() inside a function, not at the top of the file",3,const ROLES = require('../constants/role.constant'),repositories/lead.repository.js
+crm-prototype,Inherits,class X extends Y (CRG stores no inheritance for JavaScript here),6,class BadRequestError extends Error {,errors/BadRequestError.js
+crm-prototype-client,Calls,"JSX element (<div>, <Component>) counted as a call",979,"<div className=""px-4 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6 overflow-y-auto max-h-[calc(90vh-80px)]"">",src/components/InviteModal.jsx
+crm-prototype-client,Calls,constructor call (new X(...)),87,const queryClient = new QueryClient(),src/App.jsx
+crm-prototype-client,Calls,same call more than once on one line (CRG keeps one),32,"{isInviting ? t(""inviting"") : t(""share"")}",src/components/InviteModal.jsx
+crm-prototype-client,Calls,chained call on a continuation line (.foo(...) at the start of the line),1,.use(initReactI18next),src/i18n.js
+crm-prototype-client,Contains,function written as an object property (key: function / key: () =>),58,onSuccess: () => {,src/components/common/RowActionsMenu.jsx
+crm-prototype-client,Contains,function wrapped in useCallback / useMemo,4,"const setContactRef = useCallback((el, index) => {",src/components/forms/leads/LeadForm.jsx
+crm-prototype-client,Contains,function assigned to an object property (obj.onload = () => ...),2,reader.onload = (e) => resolve(e.target.result),src/utils/csvParser.js
+crm-prototype-client,Functions,function written as an object property (key: function / key: () =>),58,onSuccess: () => {,src/components/common/RowActionsMenu.jsx
+crm-prototype-client,Functions,function wrapped in useCallback / useMemo,4,"const setContactRef = useCallback((el, index) => {",src/components/forms/leads/LeadForm.jsx
+crm-prototype-client,Functions,function assigned to an object property (obj.onload = () => ...),2,reader.onload = (e) => resolve(e.target.result),src/utils/csvParser.js
+crm-prototype-client,Imports,re-export (export ... from './x'),41,"export { default as CommonDialog } from ""./CommonDialog""",src/components/common/index.js
+guava,Calls,constructor call (new X(...)),6749,"KNOWN_ORDER,",android/guava-testlib/src/com/google/common/collect/testing/AbstractIteratorTester.java
+guava,Calls,same call more than once on one line (CRG keeps one),4037,"assertEquals(reference.hasNext(), target.hasNext());",android/guava-testlib/src/com/google/common/collect/testing/AbstractIteratorTester.java
+guava,Calls,chained call on a continuation line (.foo(...) at the start of the line),2644,.suppressing(parentBuilder.getSuppressedTests()),android/guava-testlib/src/com/google/common/collect/testing/google/BiMapTestSuiteBuilder.java
+guava,Calls,super(...) / this(...) call,1277,super(message);,android/guava-testlib/src/com/google/common/collect/testing/AbstractIteratorTester.java
+guava,Classes,annotation type (@interface),140,"@Target({METHOD, CONSTRUCTOR, TYPE, FIELD})",android/guava-testlib/src/com/google/common/collect/testing/IgnoreJRERequirement.java
+guava,Contains,anonymous class (new X() {...}) inside a class,4444,"new PermittedMetaException(""UnsupportedOperationException or IllegalStateException"") {",android/guava-testlib/src/com/google/common/collect/testing/AbstractIteratorTester.java
+guava,Contains,nested class inside a class,140,"@Target({METHOD, CONSTRUCTOR, TYPE, FIELD})",android/guava-testlib/src/com/google/common/collect/testing/IgnoreJRERequirement.java
+guava,Contains,annotation member (@interface X { String value(); }),48,CollectionFeature[] value() default {};,android/guava-testlib/src/com/google/common/collect/testing/features/CollectionFeature.java
+guava,Functions,annotation member (@interface X { String value(); }),48,CollectionFeature[] value() default {};,android/guava-testlib/src/com/google/common/collect/testing/features/CollectionFeature.java
+guava,Inherits,"interface extending interfaces (interface A extends B, C)",192,@GwtCompatible,android/guava-testlib/src/com/google/common/collect/testing/OneSizeTestContainerGenerator.java
+guava,Inherits,class extends a generic or nested type (extends Outer.Inner / X<T>),30,private class EntrySet extends AbstractMultiset<E>.EntrySet {,android/guava-tests/benchmark/com/google/common/collect/ConcurrentHashMultisetBenchmark.java
+guava,Inherits,other,8,private static class TestSuppressor implements Closer.Suppressor {,android/guava-tests/test/com/google/common/io/CloserTest.java
+spring-petclinic,Calls,chained call on a continuation line (.foo(...) at the start of the line),169,".append(""telephone"", this.telephone)",src/main/java/org/springframework/samples/petclinic/owner/Owner.java
+spring-petclinic,Calls,same call more than once on one line (CRG keeps one),23,"if (!existingPet.isNew() && !pet.isNew() && Objects.equals(existingPet.getId(), pet.getId())) {",src/main/java/org/springframework/samples/petclinic/owner/Owner.java
+spring-petclinic,Contains,anonymous class (new X() {...}) inside a class,3,petTypes.add(new PetType() {,src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java
+spring-petclinic,Contains,overloaded method (same name more than once in the class),3,public Pet getPet(String name) {,src/main/java/org/springframework/samples/petclinic/owner/Owner.java
+spring-petclinic,Functions,overloaded method (same name more than once in the file),2,public Pet getPet(String name) {,src/main/java/org/springframework/samples/petclinic/owner/Owner.java
+spring-petclinic,Functions,method with an annotation on the line above (line taken from the annotation),1,@Transactional(readOnly = true),src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java
+spring-petclinic,Inherits,"interface extending interfaces (interface A extends B, C)",3,"public interface OwnerRepository extends JpaRepository<Owner, Integer> {",src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java
+voice-assessment-agent,Calls,same call more than once on one line (CRG keeps one),49,"""next_question"": res.get(""next_question"", {}).get(""prompt"", """"), ""instruction"":",app/agent/pipeline.py
+voice-assessment-agent,Calls,chained call on a continuation line (.foo(...) at the start of the line),3,".where(KBChunk.meta[""question""].astext == question)",app/rag/retriever.py
+voice-assessment-agent,Calls,call nested inside another call's arguments,1,"headers=_RECRUITER_HEADERS).json().get(""answers"", [])",scripts/selftest.py
+voice-assessment-agent,Classes,class with a decorator (@dataclass): the line points at the decorator,5,@dataclass,app/rag/retriever.py
+voice-assessment-agent,Imports,from __future__ import ...,40,from __future__ import annotations,app/agent/pipeline.py
